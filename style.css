@@ -25,5 +25,5 @@ h1 {text-align: center;}
 label { display: block;
         margin-bottom: 5px;}
 @media (min-width: 700px) { nav ul {flex-direction: row;}
-        
+                          }
         
