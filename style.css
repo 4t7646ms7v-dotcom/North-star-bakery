@@ -2,8 +2,6 @@ p {color:black;}
 
 h1 {font-size:40px;
     color:black;
-    justify-content: center;
-   
 }
 nav ul {display:flex;
         flex-direction: column;
