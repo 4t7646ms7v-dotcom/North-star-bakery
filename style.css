@@ -1,0 +1,28 @@
+p {color:black;}
+
+h1 {font-size:40px;
+    color:black;
+    justify-content: center;
+   
+}
+nav ul {display:flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+}
+    head { font-size: 32px;   
+        color: rgb(234, 158, 16);
+        background-color: blue;
+    }  
+body { background-color: beige;}
+section { padding: 20px;
+          margin-bottom: 20px;
+          border: 2px solid brown;}
+
+input { margin-bottom: 15px;
+        padding:8px ;}
+h1 {text-align: center;}
+label { display: block;
+        margin-bottom: 5px;}
+        
+        

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    
+   
+</head>
+
+
+<body>
+
+    <header> 
+         <img src="bakery/bakery-logo_c.png" alt="North Star Bakery Logo" width="200">
+        <h1>North Star Bakery</h1>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact North Star Bakery</h2>
+        
+        <p>For any questions, or if you wish to place an order, please send a message below.</p>
+            <form>
+              <fieldset>
+                 <legend>Contact Information</legend>
+
+                 <label for="name">Name:</label>
+                 <input type="text" id="name" name="name" required>
+
+                 <label for="email">Email:</label>
+                 <input type="email" id="email" name="email" required>
+                 
+                 <label for="pickup">Pickup Date:</label>
+                 <input type="date" id="pickup" name="pickup">
+
+                 <label for="request">Request Type:</label>
+                 <select id="request" name="request">
+                     <option value="preorder">Pre Order</option>
+                     <option value="question">General Question</option>
+
+                 </select>
+                 
+                 <label for="details">Item Details:</label>
+                 <textarea id="details" name="details"></textarea>
+                 
+                 <label for="allergies">Allergy Notes:</label>
+                 <textarea id="allergies" name="allergies"></textarea>
+                 
+              </fieldset>  
+
+              <input type="submit" value="Submit">
+            </form>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2026 North Star Bakery</p>
+    </footer>
+</body>
+</html>
